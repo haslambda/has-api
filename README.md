@@ -1,3 +1,3 @@
-# HAS Api
+# HAS Chatbot
 
-RESTful API for Hana Academy Seoul
+Kakaotalk Chatbot for Hana Academy Seoul

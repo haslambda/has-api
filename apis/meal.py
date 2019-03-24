@@ -12,16 +12,17 @@ class Meal(Resource):
         y, m, d = ymd["y"], ymd["m"], ymd["d"]
         meal = get_meal(y,m,d)
         return jsonify(
-            version="2.0",
-            template={
-                "outputs": [
-                    {
-                        "simpleText": {
-                            "text": f"오늘의 급식입니다.\n아침: {meal[0]}\n점심: {meal[1]}\n저녁: {meal[2]}\n 간식: {meal[3]}"
-                        }
-                    }
-                ]
-            }
+            # version="2.0",
+            # template={
+            #     "outputs": [
+            #         {
+            #             "simpleText": {
+            #                 "text": f"오늘의 급식입니다.\n아침: {meal[0]}\n점심: {meal[1]}\n저녁: {meal[2]}\n 간식: {meal[3]}"
+            #             }
+            #         }
+            #     ]
+            # }
+        "test"
         )
 
 

@@ -39,5 +39,4 @@ def get_meal(y, m, d):
         d = now.day
 
     raw = get_raw(y, m, d)
-    print(raw)
     return parse_meal(raw)

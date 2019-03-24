@@ -3,7 +3,8 @@ from apis import api
 
 app = Flask(__name__)
 
-app.config['JSON_AS_ASCII'] = False
+app.config["JSON_AS_ASCII"] = False
+
 api.init_app(app)
 
 if __name__ == "__main__":

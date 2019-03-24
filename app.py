@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restful import Api
+from flask_restplus import Api
 
 from resources.meal import Meal
 

@@ -1,4 +1,4 @@
-from has-chatbot import app
+from haschatbot import app
 
 if __name__ == "__main__":
     app.run()
